@@ -1,4 +1,4 @@
-# array = ["Tim", "Tom", "Jim"]
+array = ["Tim", "Tom", "Jim"]
 
 
 
