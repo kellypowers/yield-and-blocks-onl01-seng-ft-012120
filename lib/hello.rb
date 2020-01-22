@@ -3,10 +3,12 @@ array = ["Tim", "Tom", "Jim"]
 
 
 def hello_t(array)
-  i = 0 
-  while i < array.length do
-    yield array[i]
-    i += 1 
+  if block_given?
+    i = 0 
+    while i < array.length do
+      yield array[i]
+      i += 1 
+    end
   end
   array
 end
